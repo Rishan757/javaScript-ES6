@@ -180,16 +180,81 @@
 
 // console.log(talentName);
 
-let products = [
-  { name: "Mobile", price: 10000, inStock: true },
-  { name: "Laptop", price: 50000, inStock: false },
-  { name: "Tablet", price: 15000, inStock: true },
-  { name: "Camera", price: 25000, inStock: true }
-];
+// let products = [
+//   { name: "Mobile", price: 10000, inStock: true },
+//   { name: "Laptop", price: 50000, inStock: false },
+//   { name: "Tablet", price: 15000, inStock: true },
+//   { name: "Camera", price: 25000, inStock: true }
+// ];
 
-let result = products
-.filter(p => p.price<20000 && p.inStock)
-.map(p => p.name.toUpperCase());
+// let result = products
+// .filter(p => p.price<20000 && p.inStock)
+// .map(p => p.name.toUpperCase());
 
 
-console.log(`${result}`);
+// console.log(`${result}`);
+
+// function add(a,b){
+//   return a+b;
+// }
+// console.log(add(10,20));
+
+
+
+// const add1 = (x,y) => x * y;
+// console.log(add1(10,20));
+
+// const numbers = s => s;
+// console.log(numbers(10));
+
+
+// let students = [
+  
+//    {
+//       id:101,
+//       name: 'sagor',
+//       gpa: 2.65
+//    },
+
+//       {
+//       id:102,
+//       name: 'Maliha',
+//       gpa: 4.50
+//    },
+
+//       {
+//       id:103,
+//       name: 'Rishan',
+//       gpa: 3.65
+//    },
+
+//       {
+//       id:104,
+//       name: 'Milkan',
+//       gpa: 2.70
+//    },
+// ]
+
+// let studentName = students
+// .filter(s => s.gpa>3).map(s => s.name);
+// console.log(studentName);
+
+
+// const person = {
+//    fristName : 'Rishan',
+//    lastName : 'Ahmed',
+//    age :      21,
+//    eyeColor : "brown"
+// };
+
+// const {fristName,age,lastName,eyeColor} = person;
+
+// document.getElementById("demo").innerHTML = (`${fristName} ${lastName} is ${age} years old. And his eye color is ${eyeColor}`);
+
+
+// const fruits = ["Banana", "Apple", "Orange", "Mango"];
+
+
+// const [fruit1,fruit2] = fruits;
+
+// document.getElementById("demo").innerHTML = fruit1 + " " + fruit2;
