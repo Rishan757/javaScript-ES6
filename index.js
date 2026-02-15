@@ -258,3 +258,45 @@
 // const [fruit1,fruit2] = fruits;
 
 // document.getElementById("demo").innerHTML = fruit1 + " " + fruit2;
+
+// const numbers = [10,25,51,88];
+
+// const fristEvenNumber = numbers.find(num => num%2===0);
+// const fristEvenNumberIndex = numbers.findIndex(num => num%2===0);
+// console.log(fristEvenNumber);
+// console.log(fristEvenNumberIndex);
+
+// const informationInfo = [
+//     {
+//         name: 'Rishan',
+//         gpa : 3.65
+//     },
+//         {
+//         name: 'Sagor',
+//         gpa : 2.65
+//     },
+//         {
+//         name: 'Tanisha',
+//         gpa : 4.65
+//     },
+//         {
+//         name: 'Maliha',
+//         gpa : 4.75
+//     },
+// ]
+
+// const user = informationInfo.find(i => i.gpa>4);
+// console.log(user);
+
+// const userIndex = informationInfo.findIndex(i => i.name);
+// console.log(userIndex);
+
+// const products = [
+//   {name: "Laptop", price: 50000},
+//   {name: "Mobile", price: 20000},
+//   {name: "Tablet", price: 30000}
+// ];
+
+// const highPrice = products.find(p => p.price > 25000);
+// console.log(highPrice);
+
