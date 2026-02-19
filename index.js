@@ -300,3 +300,180 @@
 // const highPrice = products.find(p => p.price > 25000);
 // console.log(highPrice);
 
+// let text = 'Today is sunday';
+// console.log(text.startsWith('Today'));
+
+// let text2 = 'My name is Rishan';
+// console.log(text2.endsWith('Rishan'));
+
+// let text1 = 'I am a student';
+// console.log(text1.includes('student'));
+
+
+// import { setText, text } from "./module.js";
+// console.log(text);
+
+// setText("Good by ES6");
+
+// console.log(text);
+
+// class student {
+//     constructor(id,name,gpa){
+//         this.id = id;
+//         this.name = name;
+//         this.gpa = gpa;
+//     }
+// }
+
+
+// const set1 = new student(101,'Rishan',3.50);
+
+// console.log(set1.name);
+
+
+// const taskOne = () =>{
+//     console.log("Task1");
+// }
+
+// const taskTwo = () =>{
+//     console.log("Task2");
+// }
+// const taskThree = () =>{
+//     console.log("Task3");
+// }
+// const taskFour = () =>{
+//     console.log("Task4");
+// }
+// const taskFive = () =>{
+//     console.log("Task5");
+// }
+
+// taskOne();
+// taskThree();
+// taskTwo();
+// taskFour();
+// taskFive();
+
+// let taskOne = () =>{
+//     console.log("Task1");
+// }
+
+// setTimeout(() =>{
+//     console.log("task2");
+// },2000);
+
+// let taskTwo = () =>{
+//     console.log("task3");
+// }
+
+// taskOne();
+// taskTwo();
+
+// let mySet = new Set();
+// mySet.add(5).add(6).add(5).add('Bangladesh').delete(6);
+
+// console.log(mySet.size);
+
+// const fruit = ["Banana", "Apple", "Orange"];
+
+// const result = fruit.entries();
+
+// for(let x of result){
+//     document.getElementById("demo").innerHTML += x + "<br>";
+// }
+
+// const promise = new Promise((resolve,reject) => {
+//        let completedPromise = false;
+
+//        if(completedPromise){
+//          resolve("promise is completed");
+//        }else{
+//         reject("promise can not completed");
+//        }
+// });
+
+// promise.then((res) =>{
+//     console.log(res);
+// })
+
+// .catch((err)=>{
+//     console.log(err);
+// })
+
+// const promise1 = new Promise((resolve,reject) =>{
+//     setTimeout(()=>{
+//         resolve("I Love U !!");
+//     },2000);
+// });
+
+// promise1
+//   .then((res) => console.log(res))
+//   .catch((err) => console.log(err));
+
+// const promise2 = new Promise((resolve,reject)=>{
+//     let success = false;
+
+//     if(success){
+//         resolve("Done");
+//     }else{
+//         reject("Faild");
+//     }
+// });
+
+// promise2
+// .then((res)=>console.log(res))
+// .catch((err)=>console.log(err));
+
+// const promise = new Promise((resolve,reject)=>{
+//     resolve('promise  done');
+// });
+
+// const promise1 = new Promise((resolve,reject)=>{
+//     resolve('promise 1 done');
+// });
+
+// const promise2 = new Promise((resolve,reject)=>{
+//     resolve('promise 2 done');
+// });
+
+// Promise.all([promise, promise1, promise2])
+// .then((res)=>console.log(res))
+// .catch((err)=>console.log(err));
+
+
+// const promise  = new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve("Frist")
+//     },2000)
+// });
+
+// const promise1  = new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve("second")
+//     },1000)
+// });
+
+// Promise.race([promise,promise1]).then(console.log);
+
+const promise = new Promise((resolve,reject)=>{
+    resolve(10);
+});
+
+promise
+
+.then((res)=>{
+    console.log(res);
+    return res * 2;
+})
+
+.then((res)=>{
+    console.log(res);
+    return res * 3;
+})
+
+.then((res)=>{
+    console.log(res);
+});
+
+
+
